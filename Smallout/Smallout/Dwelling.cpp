@@ -6,6 +6,9 @@ using namespace std;
 #include <ctime>
 #include <limits>
 enum RESOURCES{WATER, FOOD, ELEC, STIM, MED, SPACE};
+
+
+
 class Rooms {
 public:
 	void initRoom(int resource, int size, int level);
@@ -76,7 +79,8 @@ int main() {
 	lnames.push_back("Graham");
 	lnames.push_back("Henriquez");
 	lnames.push_back("Cox");
-	int caps = 100;
+
+	
 	cout << "Welcome to Smallout Better!" << endl;
 	cout << "Do you have a file?" << endl;
 	getline(cin, input);
